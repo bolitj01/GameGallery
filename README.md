@@ -1,8 +1,10 @@
-# React + Vite
+# GameGallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## AY 2024-25 CS537 Class Project
 
-Currently, two official plugins are available:
+GameGallery provides many small playable games within a single React app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+- Several playable games [In Development]
+- Stats about game playing [In Development]
+- Achievements for games [In Development]

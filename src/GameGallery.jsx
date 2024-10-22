@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "./components/Header";
 import GameGrid from "./components/GameGrid";
 import GameWindow from "./components/GameWindow";
+import styles from "./styles/GameGallery.module.css";
 
 const games = [
   { id: 1, name: "Tic-Tac-Toe", image: "./images/tictactoe.png" },
@@ -18,7 +19,7 @@ function GameGallery() {
   const [selectedGame, setSelectedGame] = useState(null);
 
   return (
-    <div className="App">
+    <div className="gameGallery">
       <Header />
       {selectedGame ? (
         <GameWindow
